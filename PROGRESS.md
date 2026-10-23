@@ -12,3 +12,7 @@ Estado al 2026-10-23.
 
 ## Qué falta
 - Prueba de punta a punta con login real (Felipe), sobre todo informes con muchas fotos (tamaño del POST).
+
+## 2026-10-23 · Marca unificada
+- Íconos (`icons/`, `apple-touch-icon.png`) y `manifest.webmanifest`; `.gitignore` los deja pasar. Ícono = persona + insignia GH, igual al de GH TOOLS.
+- Login igual al de las demás apps; logo de la barra más grande (34 px). Solo marcado y estilos.
