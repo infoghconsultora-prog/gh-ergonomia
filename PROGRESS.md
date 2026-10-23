@@ -8,6 +8,7 @@ Estado al 2026-10-23.
 - Sin datos de clientes en el repo (empresas semilla en el backend; placeholders genéricos).
 - No hay Service Worker.
 
+- `BACKEND_URL` apunta al /exec de gh-ergonomia-backend (desplegado v1).
+
 ## Qué falta
-- Poner `BACKEND_URL` real en `js/backend.js` cuando se despliegue `gh-ergonomia-backend`, y subir.
 - Prueba de punta a punta con login real (Felipe), sobre todo informes con muchas fotos (tamaño del POST).

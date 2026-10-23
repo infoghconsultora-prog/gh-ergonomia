@@ -4,7 +4,7 @@
 (function () {
   'use strict';
   const CLIENT_ID = '585469655594-8aj9hjmf7d4noglr1th673dbiia8ftkv.apps.googleusercontent.com';
-  const BACKEND_URL = '__BACKEND_URL__';
+  const BACKEND_URL = 'https://script.google.com/macros/s/AKfycbz7ER-jJ0eQJF1ECQb30C3aA_h8PAqTmkjts7w4SZAfthL_c5B6GLfQVqSJ7aavCJ5JpQ/exec';
 
   let idToken = null, esperando = null;
 
