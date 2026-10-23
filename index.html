@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+<meta http-equiv="Content-Security-Policy" content="object-src 'none'; base-uri 'self'; form-action 'self'">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Ergonomía · GH</title>
+  <link rel="icon" href="assets/logo-gh.png">
+  <link rel="stylesheet" href="css/app.css">
+</head>
+<body>
+  <header class="barra">
+    <div class="scroll-edge"></div>
+    <a class="marca liquid-glass" href="#/" title="Inicio">
+      <img src="assets/logo-gh.png" alt="">
+      <span>Ergonomía</span>
+    </a>
+    <nav class="migas" id="migas"></nav>
+    <div class="estado" id="estado" aria-live="polite"></div>
+  </header>
+  <main id="app"></main>
+  <div id="capa" class="capa" hidden></div>
+  <div id="aviso" class="aviso" role="status" hidden></div>
+
+  <script src="vendor/jszip.min.js"></script>
+  <script src="vendor/docx.iife.js"></script>
+  <script src="js/datos886.js"></script>
+  <script src="js/reba.js"></script>
+  <script src="js/evaluar.js"></script>
+  <script src="js/xlsx.js"></script>
+  <script src="js/word.js"></script>
+  <script src="js/backend.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

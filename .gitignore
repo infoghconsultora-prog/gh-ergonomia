@@ -1,0 +1,20 @@
+# Repo público: solo el frontend. Informes, empresas y fotos viven en Drive vía el backend.
+*
+!.gitignore
+!index.html
+!css/
+!css/*.css
+!js/
+!js/*.js
+!vendor/
+!vendor/*.js
+!assets/
+!assets/logo-gh.png
+!assets/fanger.png
+!assets/reba/
+!assets/reba/*.png
+!plantillas/
+!plantillas/*.xlsx
+!README.md
+!SEGURIDAD.md
+!PROGRESS.md
